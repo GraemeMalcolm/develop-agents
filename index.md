@@ -2,12 +2,10 @@
 layout: default
 ---
 
-{% assign readme = site.pages | where: "name", "README.md" | first %}
-
 <div class="module-header">
-  <h1>{{ readme.title }}</h1>
-  <p class="module-level">Level: {{ readme.level }}</p>
-  <p class="module-description">{{ readme.description }}</p>
+  <h1>{{ site.data.module.title }}</h1>
+  <p class="module-level">Level: {{ site.data.module.level }}</p>
+  <p class="module-description">{{ site.data.module.description }}</p>
 </div>
 
 <ul class="content-list">

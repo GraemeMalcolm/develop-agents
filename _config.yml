@@ -12,10 +12,14 @@ defaults:
       path: "content"
     values:
       layout: "content"
-  - scope:
-      path: "README.md"
-    values:
-      layout: none
-      published: false
+
+# Include content directory
+include:
+  - content
+
+# Exclude files from build
+exclude:
+  - spec.md
+  - README.md
   - Gemfile
   - Gemfile.lock

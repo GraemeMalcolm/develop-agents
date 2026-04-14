@@ -9,9 +9,8 @@
 </head>
 
 <body>
-    {% assign readme = site.pages | where: "name", "README.md" | first %}
     <div class="content-page">
-        <h1><a href="{{ '/' | relative_url }}">{{ readme.title }}</a></h1>
+        <h1><a href="{{ '/' | relative_url }}">{{ site.data.module.title }}</a></h1>
         <h2>{{ page.title }}</h2>
 
         <div class="scrollable-content">
