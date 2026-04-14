@@ -86,12 +86,14 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    overflow: hidden;
 }
 
 .content-page h1 {
     margin: 20px;
     padding-bottom: 10px;
     border-bottom: 2px solid #e1e4e8;
+    flex-shrink: 0;
 }
 
 .content-page h1 a {
@@ -106,13 +108,16 @@ body {
 .content-page h2 {
     margin: 0 20px 20px 20px;
     color: #0366d6;
+    flex-shrink: 0;
 }
 
 .scrollable-content {
     flex: 1;
     overflow-y: auto;
+    overflow-x: hidden;
     margin: 0 20px;
     padding: 20px;
+    min-height: 0;
 }
 
 /* Navigation bar */
@@ -123,6 +128,7 @@ body {
     padding: 20px;
     border-top: 1px solid #e1e4e8;
     background-color: #f6f8fa;
+    flex-shrink: 0;
 }
 
 .nav-button {
