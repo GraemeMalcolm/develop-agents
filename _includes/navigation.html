@@ -2,8 +2,13 @@
 Generate previous/next navigation for content pages
 {% endcomment %}
 
+<<<<<<< HEAD
 {% assign content_pages = site.pages | where_exp: "p", "p.path contains 'content/'" | where_exp: "p", "p.ext == '.md'" |
 sort: "path" %}
+=======
+{% assign content_pages = site.pages | where_exp: "p", "p.path contains 'content/'" | where_exp: "p", "p.path contains
+'.md'" | sort: "path" %}
+>>>>>>> template/main
 
 {% for p in content_pages %}
 {% if p.url == page.url %}
