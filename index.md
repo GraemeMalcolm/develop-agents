@@ -9,13 +9,13 @@ layout: default
 </div>
 
 <ul class="content-list">
-{% assign content_pages = site.pages | where_exp: "page", "page.path contains 'content/'" | where_exp: "page", "page.name != 'media.txt'" | where_exp: "page", "page.ext == '.md'" | sort: "path" %}
-{% for page in content_pages %}
-  {% if page.title %}
+{% assign content_pages = site.pages | where_exp: "item", "item.path contains 'content/'" | where_exp: "item", "item.path contains '.md'" | sort: "path" %}
+{% for item in content_pages %}
+  {% if item.title and item.layout == 'content' %}
   <li class="content-item">
-    <h3><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h3>
-    <p class="content-duration">Duration: {{ page.duration }} minutes</p>
-    <p class="content-description">{{ page.description }}</p>
+    <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+    <p class="content-duration">Duration: {{ item.duration }} minutes</p>
+    <p class="content-description">{{ item.description }}</p>
   </li>
   {% endif %}
 {% endfor %}
