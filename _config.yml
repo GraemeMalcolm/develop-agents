@@ -1,5 +1,5 @@
-title: Content Template
-description: Repository template for markdown-based skilling content
+title: Develop AI Agents
+description: Learn how to develop AI agents with Microsoft Foundry.
 theme: jekyll-theme-minimal
 markdown: kramdown
 kramdown:
