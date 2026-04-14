@@ -100,10 +100,12 @@ body.content-body {
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .content-page h1 {
-    margin: 20px;
+    margin: 20px 20px 0 20px;
     padding-bottom: 10px;
     border-bottom: 2px solid #e1e4e8;
     flex-shrink: 0;
@@ -129,7 +131,7 @@ body.content-body {
     overflow-y: auto;
     overflow-x: hidden;
     margin: 0 20px;
-    padding: 20px;
+    padding: 0 0 20px 0;
     min-height: 0;
 }
 
