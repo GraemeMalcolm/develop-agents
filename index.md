@@ -11,7 +11,7 @@ layout: default
 </div>
 
 <ul class="content-list">
-{% assign content_pages = site.pages | where_exp: "page", "page.path contains 'content/'" | where_exp: "page", "page.name != 'media.txt'" | sort: "path" %}
+{% assign content_pages = site.pages | where_exp: "page", "page.path contains 'content/'" | where_exp: "page", "page.name != 'media.txt'" | where_exp: "page", "page.ext == '.md'" | sort: "path" %}
 {% for page in content_pages %}
   {% if page.title %}
   <li class="content-item">

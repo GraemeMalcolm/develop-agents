@@ -6,27 +6,16 @@ kramdown:
   input: GFM
   hard_wrap: false
 
-# Collections
-collections:
-  content_pages:
-    output: true
-    permalink: /content/:name
-
 # Default layouts
 defaults:
   - scope:
       path: "content"
-      type: "content_pages"
     values:
       layout: "content"
-
-# Include content directory
-include:
-  - content
-
-# Exclude files from build
-exclude:
-  - spec.md
-  - README.md
+  - scope:
+      path: "README.md"
+    values:
+      layout: none
+      published: false
   - Gemfile
   - Gemfile.lock
