@@ -15,7 +15,7 @@ This workshop is designed to provide a *fast-track* learning experience that get
 
 > ![Anton avatar.](./media/anton-icon.png)<br>**[Ask Anton](https://aka.ms/choose-anton){:target="_blank"}**
 >
-> Throughout the workshop, you'll see notes like this one; from which you can access the *Ask Anton* agent. You can use this agent to aske questions to fill in any gaps in your understanding, or to find relevant information in the Microsoft Foundry documentation.<br><br>Open the *[Ask Anton](https://aka.ms/choose-anton){:target="_blank"}* agent and choose your preferred experience:
+> Throughout the workshop, you'll see notes like this one; from which you can access the *Ask Anton* agent. You can use this agent to ask questions to fill in any gaps in your understanding, or to find relevant information in the Microsoft Foundry documentation.<br><br>Open the *[Ask Anton](https://aka.ms/choose-anton){:target="_blank"}* agent and choose your preferred experience:
 >
 > - **Azure-based**: A comprehensive AI assistant that uses a large language model deployed in Azure and tools to extract information from Azure documentation. You must have an Azure subscription in which you can create a Microsoft Foundry project and deploy a model.
 > - **Browser-based**: A basic AI assistant that can answer questions about AI concepts and Microsoft Foundry, and search for relevant documentation using models that run locally in your browser.

@@ -1,18 +1,24 @@
 ---
 layout: content
-title: Topic 3
-description: Another topic.
-duration: 5
+title: What is Microsoft Foundry?
+description: Get started with Microsoft Foundry, and learn how it supports agent development.
+duration: 3
 ---
 
-[!VIDEO https://learn-video.azurefd.net/vod/player?id=834bbf13-bf7b-4cd5-b8c5-3978f56cf887]
+<div style="text-align: center;">
+  <iframe src="https://learn-video.azurefd.net/vod/player?id=c1551d98-e0a2-47be-bd41-f71170fe3ce2" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+</div>
 
-*Generative AI* is a branch of AI that enables software applications to generate new content; often natural language dialogs, but also images, video, code, and other formats. The ability to generate content is based on a *language model*, which has been trained with huge volumes of data - often documents from the Internet or other public sources of information.
+*Microsoft Foundry* is a unified, enterprise-grade platform-as-a-service (PaaS) for building, deploying, and managing AI applications and agents. It consolidates models, agent orchestration, monitoring, and governance tools in one platform, offering production-grade infrastructure and security.
 
-![Diagram of a generative AI application in which a user chats with a language model.](../media/generative-ai.png)
+Foundry offers powerful capabilities for developers, including the ability to choose from a wide range of models, use those models to build agents, connect those agents to tools, and integrate knowledge by using Foundry IQ, the centralized connection point for data sources.
 
-Users interact with generative AI language models through *prompts* - natural language statements of questions. The language model in a generative AI solution uses the prompt to initiate the generation of a meaningful response.
+> ![Anton avatar.](./media/anton-icon.png)<br>**[Ask Anton](https://aka.ms/choose-anton){:target="_blank"}**
+>
+> Ask me about Microsoft Foundry. If you ask me to *find* or *search* for specific steps or procedures, I can point you to the right place in the product documentation.
 
-Generative AI models encapsulate *semantic* relationships between language elements (that's a fancy way of saying that the models "know" how words relate to one another), and that's what enables them to generate a meaningful sequence of text.
+---
 
-There are *large language models* (LLMs) and *small language models* (SLMs) - the difference is based on the volume of data and the number of variables in the model. LLMs are powerful and generalize well, but can be more costly to train and use. SLMs tend to work well in scenarios that are more focused on specific topic areas or that require easily deployed small models for local app
+### Learn more
+
+*This video is taken from the **[Get started with AI applications and agents on Azure](https://aiskillsnavigator.microsoft.com/explore/search/learningpath-c1207ab7fef2e855e1cebac091002b0b82d99a80c0b10d9bc1b34cdf25be7c5f){:target="_blank"}** learning path in AI Skills Navigator.*
