@@ -20,6 +20,7 @@ layout: default
 =======
 {% assign content_pages = site.pages | where_exp: "item", "item.path contains 'content/'" | where_exp: "item", "item.path contains '.md'" | sort: "path" %}
 {% for item in content_pages %}
+<<<<<<< HEAD
   {% if item.title and item.layout == 'content' %}
   <li class="content-item">
     <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
@@ -27,6 +28,16 @@ layout: default
     <p class="content-description">{{ item.description }}</p>
 >>>>>>> template/main
   </li>
+=======
+  {% if item.title %}
+    {% if item.layout == 'content' %}
+    <li class="content-item">
+      <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+      <p class="content-duration">Duration: {{ item.duration }} minutes</p>
+      <p class="content-description">{{ item.description }}</p>
+    </li>
+    {% endif %}
+>>>>>>> template/main
   {% endif %}
 {% endfor %}
 </ul>
