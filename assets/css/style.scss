@@ -118,7 +118,8 @@ body {
 /* Navigation bar */
 .navigation-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
     padding: 20px;
     border-top: 1px solid #e1e4e8;
     background-color: #f6f8fa;
