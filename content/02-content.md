@@ -23,7 +23,7 @@ By combining these three elements, an agent can not only engage with a user in a
 
 > ![Anton avatar.](./media/anton-icon.png)<br>**[Ask Anton](https://aka.ms/choose-anton){:target="_blank"}**
 >
-> Ask me about the relationship between agents and large language models. I can help you understand how LLMs work, and how agents use them to interpret instructions and reason about tasks.
+> Ask me about the relationship between LLMs and agents. I can help you understand how LLMs work, and how agents use them to interpret instructions and reason about tasks.
 
 ---
 
