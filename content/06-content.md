@@ -9,9 +9,9 @@ duration: 45
   <img src="./media/lab.jpg" width="800" height="450"/>
 </div>
 
-*Update this lab to minimize initial portal steps, and add tools using the SDK.*
+*Update the [first Agent Dev lab](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/01-build-agent-portal-and-vscode.html) to minimize initial portal steps, and add tools using the SDK.*
 
-*Or, create a new lab on creating an agent in VS Code from the start - not in the portal*.
+*Or, use the [second lab](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/02-agent-custom-tools.html) and have them create an agent in VS Code from scratch with custom functions (which is a good rationale for using VS Code instead of the portal)*.
 
 ### Before you start
 
