@@ -9,7 +9,7 @@ duration: 2
   <img src="./media/Slide3.JPG" width="800" height="450"/>
 </div>
 
-In this workshop, you've learned how to create Ai agents in Microsoft Foundry.
+In this workshop, you've learned how to create AI agents in Microsoft Foundry.
 
 There's a lot more to AI development on Microsoft Azure. Continue your journey with the following learning paths in AI Skills Navigator:
 
