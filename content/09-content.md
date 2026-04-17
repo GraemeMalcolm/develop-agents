@@ -21,4 +21,4 @@ There's a lot more to AI development on Microsoft Azure. Continue your journey w
 
 > ![Anton avatar.](./media/anton-icon.png)<br>**[Ask Anton](https://aka.ms/choose-anton){:target="_blank"}**
 >
-> Ask me how GitHub Copilot can help you develop AI apps and agents.
+> Don't forget. I'm always here to help!
