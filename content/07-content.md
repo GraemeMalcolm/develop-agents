@@ -2,7 +2,7 @@
 layout: content
 title: Get AI assistance from GitHub Copilot
 description: Learn how GitHub Copilot can supercharge your agent development.
-duration: 40
+duration: 3
 ---
 
 <div style="text-align: center;">
