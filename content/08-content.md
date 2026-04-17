@@ -2,7 +2,7 @@
 layout: content
 title: Lab - Explore agentic development with GitHub Copilot
 description: Use GitHub Copilot to develop an agent in Visual Studio Code.
-duration: 20
+duration: 25
 ---
 
 <div style="text-align: center;">
